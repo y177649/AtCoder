@@ -1,0 +1,1 @@
+print('E' if (x:=sum(a:=sorted(list(map(int,input().split())))[1:-1])/len(a))==(y:=sum(b:=sorted(list(map(int,input().split())))[1:-1])/len(b)) else 'A' if x>y else 'B')
