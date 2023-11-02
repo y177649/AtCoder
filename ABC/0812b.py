@@ -14,14 +14,14 @@ for f1 in range(n):
 
 print(len(ans))
 print(ans)
-            
+           
 
 
 '''
 4
 19
 3
-7 19 20
+19 20
 4
 19 24 0
 2
