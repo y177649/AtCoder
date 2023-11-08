@@ -1,15 +1,6 @@
 # This is file 59
-x=list(input())
+s1,s2,s3=list(input().split())
 
-ans=[]
-    
-ans.append(x[0])
+s1_,s2_,s3_=(chr(ord(s1[0])-32)),(chr(ord(s2[0])-32)),(chr(ord(s3[0])-32))
 
-for f1 in range(len(x)):
-    if x[f1]==' ':
-        ans+=x[f1+1]
-
-for f2 in ans:
-
-
-print(ans)
+print(s1_+s2_+s3_)
