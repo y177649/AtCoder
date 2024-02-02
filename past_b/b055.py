@@ -11,4 +11,3 @@ S=lambda:input().split()
 FI=[input() for _ in range(n)]
 
 #code___________
-
