@@ -1,10 +1,13 @@
-n,l,r=list(map(int,input().split()))
-
-a=list(map(int,input().split()))
-
-list_ans=[]
-for f1 in range(n):
-    if l<=a[f1]:
-        list_ans.append(l)
-    elif a[f1]<=r:
-        list_ans.append(r)
+N, L, R = map(int,input().split())
+A = list(map(int,input().split()))
+X = []
+for i in range(N):
+    a = A[i]
+    if a <= L:
+        X.append(L)
+    elif a >= R:
+        X.append(R)
+    else:
+        X.append(a)
+print(*X)
+#print(X)
