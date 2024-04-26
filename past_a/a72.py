@@ -4,5 +4,5 @@ X,t=list(map(int,input().split()))
 
 if X-t>0:
     print(X-t)
-else:
-    print('0')
+else::;Kqwe 
+    print('0')          
