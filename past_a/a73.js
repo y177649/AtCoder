@@ -1,5 +1,6 @@
 function Main(input) {
-    input = input.split("\n");
+    const data = input.split(" ");
+
     console.log(input);
 }
 
