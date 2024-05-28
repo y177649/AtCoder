@@ -12,7 +12,25 @@ S=lambda:input().split()
 
 #code___________
 
+n=int(input())
 
+dic={}
+
+for _ in range(n):
+    s=input()
+    if s in dic:
+        dic[s]+=1
+    else:
+        dic[s]=1
+
+max = -1
+ans = ""
+for name in dic:
+    if dic[name]>max:
+        max=dic[name]
+        ans=name
+
+print(ans)
 
 
 
