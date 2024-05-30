@@ -8,7 +8,9 @@ LMIS=lambda:list(map(int,input().split()))
 I=lambda:input()
 L=lambda:list(input())
 S=lambda:input().split()
-FI=[input() for _ in range(n)]
+#FI=[input() for _ in range(n)]
 
 #code___________
 
+s=I()
+print(s.title())
