@@ -15,4 +15,4 @@ S=lambda:input().split()
 a=II()
 b=II()
 
-print(min(abs(a-b),abs((10-(a-b)))))
+print(min(abs(a-b),10-(abs((a-b)))))
