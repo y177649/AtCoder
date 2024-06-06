@@ -30,8 +30,8 @@ else:
 """
 #dev_ans=[]  
 for i in range(n):
-    if x_binary[i] == "1":
-        ans += a[i-1]
+    if x_binary[n-1-i] == "1":
+        ans += a[i]
         #dev_ans.append(a[i])
 
 print(ans)
