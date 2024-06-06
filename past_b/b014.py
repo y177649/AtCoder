@@ -15,22 +15,29 @@ S=lambda:input().split()
 n,X=MIS()
 a=LMIS()
 
-x_binary=str(bin(X)[2:])
+x_binary=bin(X)[2:].zfill(n)
 
 ans=0
-#dev_ans=[]
-if len(x_binary) != n:
-    new_x_binary = "0" + x_binary
+"""
+if X == 0:
+    print(ans)
 else:
-    new_x_binary = x_binary
-    
+
+    if len(x_binary) != n:
+        new_x_binary = "0" + x_binary
+    else:
+        new_x_binary = x_binary
+"""
+#dev_ans=[]  
 for i in range(n):
-    if new_x_binary[i] == "1":
+    if x_binary[i] == "1":
         ans += a[i-1]
-#        dev_ans.append(a[i])
+        #dev_ans.append(a[i])
 
 print(ans)
-#print(dev_ans)
-#print(a)
-#print(x_binary)
-#print(new_x_binary)
+"""
+print(dev_ans)
+print(a)
+print(x_binary)
+print(new_x_binary)
+"""
