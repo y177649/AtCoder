@@ -1,1 +1,5 @@
-# This is file 87
+x=int(input())
+a=int(input())
+b=int(input())
+
+print((x-a)%b)
