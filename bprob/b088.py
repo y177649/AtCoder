@@ -1,14 +1,21 @@
+N = int(input())
+ai = list(map(int,input().split()))
 
-#input_________
+#print(N,ai)
 
-II=lambda:int(input())
-MIS=lambda:map(int,input().split())
-LMI=lambda:list(map(int,input()))
-LMIS=lambda:list(map(int,input().split()))
-I=lambda:input()
-L=lambda:list(input())
-S=lambda:input().split()
-FI=[input() for _ in range(n)]
+ai.sort(reverse = True)
 
-#code___________
+Alices_points = sum(ai[::2])
+Bobs_points = sum(ai[1::2])
 
+"""
+for i in range(0 , len(ai)//2 , 1):
+    Alices_points + i
+
+for j in range(1 , len(ai)//2 , 1):
+    Bobs_points + j
+
+#print(len(ai)//2)
+"""
+
+print(Alices_points - Bobs_points)
