@@ -1,14 +1,6 @@
+D,X = list(map(int,input().split()))
 
-#input_________
-
-II=lambda:int(input())
-MIS=lambda:map(int,input().split())
-LMI=lambda:list(map(int,input()))
-LMIS=lambda:list(map(int,input().split()))
-I=lambda:input()
-L=lambda:list(input())
-S=lambda:input().split()
-FI=[input() for _ in range(n)]
-
-#code___________
-
+if X != 100:
+    print((100**D)*X)
+else:
+    print((100**D)*(X+1))
