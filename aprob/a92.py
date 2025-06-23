@@ -21,7 +21,6 @@ else:
 
 print(result_ab + result_cd)
 """
-
 """
 ls = []
 x=0
@@ -43,4 +42,14 @@ else:
     result_cd = ls [3]
 
 print(result_ab + result_cd)
+"""
+"""
+ls = []
+x=0
+
+for i in range(4):
+    x = int(input())
+    ls.append(x)
+
+print(min(ls[0],ls[1]) + min(ls[2],ls[3]))
 """
