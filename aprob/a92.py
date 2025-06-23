@@ -53,3 +53,8 @@ for i in range(4):
 
 print(min(ls[0],ls[1]) + min(ls[2],ls[3]))
 """
+import sys
+
+a,b,c,d = map(int,sys.stdin.read().split())
+
+print(min(a,b) + min(c,d))
